@@ -1,3 +1,19 @@
+
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require reset
+ *= require_self
+ */
+
+
 form{
 	margin-bottom: 0;
 }
@@ -14,9 +30,13 @@ form{
 
 
 /* Home */
+
+html, #home {
+  background-color: #8fdbda !important;
+}
+
 #home{
 	padding-bottom: 50px;
-	background: #8fdbda;
 }
 
 #home .page-content{
@@ -27,7 +47,7 @@ form{
 #home .hero{
 	width: 100%;
 	height: 446px;
-	background: url(/assets/home/background.jpg) center center no-repeat;
+	background: url(/assets/home/hero.jpg) center center no-repeat;
 	background-size: 1600px 446px;
 	overflow: hidden;
 	position: relative;
@@ -232,7 +252,7 @@ form{
 }
 
 #refer{
-	background: #FFF;
+/*background: #8fdbda !important;*/
 }
 
 #refer .page-content{
@@ -288,18 +308,13 @@ form{
 }
 
 #refer .mammoth{
-	width: 612px;
-	height: 394px;
-	background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
-	background-size: 610px 394px;
 	overflow: hidden;
 	margin-top: 15px;
 	float: left;
 }
-
 #refer .mammoth .need{
 	color: #FFF;
-	font-size: 38px;
+	font-size: 25px;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 102px 0 0 72px;
@@ -317,6 +332,7 @@ form{
 	text-transform: uppercase;
 	letter-spacing: .13em;
 	margin-right: 60px;
+
 }
 
 #refer .share-wrap .why{
@@ -387,7 +403,7 @@ form{
 
 #refer .prizes{
 	width: 100%;
-	background: #FFF;
+	background: #8fdbda; 
 	border-top: 1px solid #D2D1C8;
 	padding-bottom: 100px;
 }
@@ -594,7 +610,7 @@ form{
 #refer .prizes a.policy{
 	text-align: center;
 	font-size: 12px;
-	color: #CCCCCC;
+	color: #dd3e08;
 	width: 100%;
 	font-weight: 500;
 	margin-top: 5px;
@@ -626,10 +642,7 @@ only screen and (min-device-pixel-ratio: 2) {
 		background-size: 106px 19px;
 	}
 
-	#refer .mammoth{
-		background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;
-		background-size: 610px 394px;
-	}
+	
 
 	#refer .share-wrap .social-links .fb{
 		background: url(/assets/refer/fb@2x.png);
