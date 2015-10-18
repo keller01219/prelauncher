@@ -71,6 +71,10 @@ refer/logo.png: refer/logo-f7aa2783ad30276cb6f54ef23da2e1fc.png
 refer/logo/index.png: refer/logo-f7aa2783ad30276cb6f54ef23da2e1fc.png
 refer/logo@2x.png: refer/logo@2x-dc79a923e97bf3f003666b73d91a049a.png
 refer/logo@2x/index.png: refer/logo@2x-dc79a923e97bf3f003666b73d91a049a.png
+refer/mammoth.png: refer/mammoth-e0522022e86e63670d99ed1dece5e106.png
+refer/mammoth/index.png: refer/mammoth-e0522022e86e63670d99ed1dece5e106.png
+refer/mammoth@2x.png: refer/mammoth@2x-66110273b3b513054f635ca19f4f984e.png
+refer/mammoth@2x/index.png: refer/mammoth@2x-66110273b3b513054f635ca19f4f984e.png
 refer/progress-bg.png: refer/progress-bg-4a9966786feaf80d05fffb346ea295fb.png
 refer/progress-bg/index.png: refer/progress-bg-4a9966786feaf80d05fffb346ea295fb.png
 refer/progress-bg@2x.png: refer/progress-bg@2x-3f444bdb8d49c58cad21955969f1b988.png
@@ -97,10 +101,10 @@ application.js: application-df0f9eb8cc6e4acffb5ad71d8b11f4cb.js
 application/index.js: application-df0f9eb8cc6e4acffb5ad71d8b11f4cb.js
 active_admin.css: active_admin-f58fc98e42733be6473403cf53156e11.css
 active_admin/index.css: active_admin-f58fc98e42733be6473403cf53156e11.css
-application.css: application-fc599656c70db38ea5f9bea17dfc59b7.css
-application/index.css: application-fc599656c70db38ea5f9bea17dfc59b7.css
-core.css: core-fbcb2695fd0f32686df661e5caf03625.css
-core/index.css: core-fbcb2695fd0f32686df661e5caf03625.css
+application.css: application-a7d0158291d3153185d3befad1d143cd.css
+application/index.css: application-a7d0158291d3153185d3befad1d143cd.css
+core.css: core-51ed077e287bccfdfc57bcc796f95422.css
+core/index.css: core-51ed077e287bccfdfc57bcc796f95422.css
 reset.css: reset-6ad98bc091cc9c97d9111ba5d3b1bc6e.css
 reset/index.css: reset-6ad98bc091cc9c97d9111ba5d3b1bc6e.css
 active_admin/admin_notes_icon.png: active_admin/admin_notes_icon-25b05cd8197f7a271d0624853a6dbdd5.png

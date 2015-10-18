@@ -27,6 +27,9 @@ production:
   adapter:  postgresql  
   encoding: unicode
   host: localhost
+  adapter:  postgresql
+  host:     localhost
+  encoding: unicode
   database: prelaunchr_production
   pool:     5
   username: postgres

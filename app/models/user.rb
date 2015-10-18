@@ -12,23 +12,24 @@ class User < ActiveRecord::Base
 
     REFERRAL_STEPS = [
         {
-            'count' => 7,
-            "html" => "Pit<br>Week",
+            'count' => 5,
+            "html" => "Shave<br>Cream",
             "class" => "two",
             "image" =>  ActionController::Base.helpers.asset_path("refer/cream-tooltip@2x.png")
         },
         {
-            'count' => 15,
-            "html" => " Pit Week<br>Tuck and Straddle",
+            'count' => 10,
+            "html" => "Truman Handle<br>w/ Blade",
             "class" => "three",
             "image" => ActionController::Base.helpers.asset_path("refer/truman@2x.png")
         },
         {
             'count' => 25,
-            "html" => "Pit Week<br>Tuck and Straddle<br>Fast and Slow",
+            "html" => "Winston<br>Shave Set",
             "class" => "four",
             "image" => ActionController::Base.helpers.asset_path("refer/winston@2x.png")
         }
+        
     ]
 
     private
@@ -49,4 +50,3 @@ class User < ActiveRecord::Base
         UserMailer.delay.signup_email(self)
     end
 end
-

@@ -118,8 +118,6 @@ GEM
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
-    pry-rails (0.3.4)
-      pry (>= 0.9.10)
     rack (1.4.5)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -135,6 +133,7 @@ GEM
       activesupport (= 3.2.11)
       bundler (~> 1.0)
       railties (= 3.2.11)
+    rails-pry (0.0.1)
     rails_12factor (0.0.3)
       rails_serve_static_assets
       rails_stdout_logging
@@ -195,8 +194,8 @@ DEPENDENCIES
   delayed_job_active_record
   pg
   pry
-  pry-rails
   rails (= 3.2.11)
+  rails-pry
   rails_12factor
   sass-rails
   sprockets

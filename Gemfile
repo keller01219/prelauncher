@@ -28,7 +28,7 @@ end
 
 group :development do
   gem 'pry'
-  gem 'pry-rails'
+  gem 'rails-pry'
 end
 
 gem 'delayed_job_active_record'
