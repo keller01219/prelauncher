@@ -1,0 +1,99 @@
+// Place all the styles related to the Users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+html, #home {
+  background-color: #8fdbda !important;
+}
+.wrapper-1 {
+  background: url("home/hands_1.png") #fff no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative center center;
+  letter-spacing: .09em;
+  margin: 0 auto;
+}
+.wrapper {
+  background: url('home/main_bg.jpg') no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative center center;
+  letter-spacing: .09em;
+  margin: 0 auto;
+}
+
+.home-header {
+  .header-top {
+    background: #558ec6;
+    line-height: 50px;
+  }
+  p {
+    text-align: center;
+    color: #fff;
+    font-size: 40px;
+  }
+  .header-bottom {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    &:after {
+      display: block;
+      clear: both;
+      content: " ";
+    }
+
+    position: relative;
+
+    .header-slogan {
+      // position: absolute;
+      // bottom: 96px;
+      // right: 50%;
+      // margin-right: 81px;
+      margin-top: 16%;
+      margin-left: 13%;
+    // .col-xs-6 {
+    //   width: 50%;
+    // }
+      h1 {
+        
+        font-weight: bold;
+        color: #8fdbda;
+        font-size: 70px;
+      }
+      h2 {
+        font-weight: bold;
+        color: #fff;
+        font-size: 40px;
+      }
+    }
+    .header-phone {
+      // padding: 10px 0;
+      // position: relative;
+      // margin-right: 200px;
+      // float: right;
+    }
+  }
+}
+.home-body {
+  // background: #8fdbda;
+  margin-top: 20px;
+  .home-man {
+    text-align: center;
+  }
+  .man-img {
+    margin-top: 20px;
+    margin: 0 auto;
+  }
+  p {
+    font-weight: bold;
+    margin-top: 10px;
+    font-size: 20px;
+    text-align: center;
+    color: #dd3e08;
+  }
+  .mail-form {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+}

@@ -1,0 +1,28 @@
+<div class="wrapper">
+  <div class="home-header">
+    <div class="header-top">
+      <!-- <p>Happy Gymnastics</p> -->
+    </div>
+    <div class="header-bottom row">
+      <div class="col-xs-6 header-slogan">
+        <h1>The shop is comming!</h1>
+        <h2>Happy Gymnastics Lesson Plans</h2>
+      </div>
+      <div class="col-xs-4 header-phone">
+        <img src="/assets/home/header_phone.png" class="img-responsive" alt="" width="404px" height="372px" style="width: 100%;">
+      </div>
+    </div>
+  </div>
+</div>
+<div class="home-body">
+    <div class="home-man">
+      <img src="/assets/home/home_man.png" class="man-img" alt="" width="34px" height="41px"/>
+    </div>        
+    <p>BE THE FIRST TO KNOW</p>
+    <div class="mail-form">
+      <%= form_for @user, :url => { :action => "create" } do |f| %>
+        <%= f.text_field :email, :placeholder => "Enter your email", :style => 'width: 285px; height: 40px' %>
+        <%= f.submit 'START NOW', :class => "form-control", :style => 'background: #dd3e08; height: 40px; color: #fff; width:120px; display: inline-block' %>
+      <% end %>
+    </div>
+</div>
