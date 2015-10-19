@@ -330,7 +330,6 @@ html, #home {
 #refer .share-wrap{
 	float: right;
   width: 100%;
-  height: 557px;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: .13em;
@@ -338,14 +337,14 @@ html, #home {
 }
 
 #refer .share-wrap .why{
-	font-size: 36px;
+	font-size: 54px;
   color: #555556;
   font-weight: bold;
-  margin-top: 42px;
+  margin-top: 129px;
 }
 
 #refer .share-wrap .title{
-	font-size: 36px;
+	font-size: 54px;
   line-height: 40px;
   text-transform: uppercase;
   font-weight: bold;
@@ -356,7 +355,7 @@ html, #home {
 
 #refer .share-wrap .subtitle{
 	color: #565656;
-  font-size: 18px;
+  font-size: 21px;
   text-transform: none;
   margin-top: 15px;
 }
@@ -416,7 +415,7 @@ html, #home {
 
 #refer .prizes .callout{
 	text-align: center;
-	font-size: 16px;
+	font-size: 25px;
 	color: #074E6F;
 	font-weight: bold;
 	margin: 20px 0 0 0;
@@ -531,6 +530,7 @@ html, #home {
 #refer .prizes .products li.product p{
 	text-align: center;
 	font-weight: 500;
+	font-size: 18px;
 }
 
 #refer .prizes .products li.product:last-child{
@@ -581,11 +581,11 @@ html, #home {
 
 #refer .prizes p.place{
 	text-align: center;
-	font-size: 16px;
+	font-size: 25px;
 	color: #074E6F;
 	width: 100%;
 	font-weight: 500;
-	margin-top: 30px;
+	margin-top: 45px;
 }
 
 #refer .prizes p.place span{
@@ -594,7 +594,7 @@ html, #home {
 
 #refer .prizes p.check{
 	text-align: center;
-	font-size: 16px;
+	font-size: 20px;
 	color: #858181;
 	width: 100%;
 	font-weight: 500;
@@ -612,7 +612,7 @@ html, #home {
 
 #refer .prizes a.policy{
 	text-align: center;
-	font-size: 12px;
+	font-size: 18px;
 	color: #dd3e08;
 	width: 100%;
 	font-weight: 500;

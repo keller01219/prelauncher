@@ -7,7 +7,7 @@ html, #home {
 }
 
 #refer .refer-wrapper {
-  $refer-wrapper-height: 460px;
+  $refer-wrapper-height: 660px;
   background-color: #fff;
   .wrapper-left {
     min-height: $refer-wrapper-height;
@@ -24,7 +24,7 @@ html, #home {
       font-size: 41px;
       text-transform: uppercase;
       font-weight: bold;
-      margin: 243px 0 0 20px;
+      margin: 371px 0 0 20px;
       display: block;
       line-height: 56px;
       text-align: center;
@@ -55,7 +55,7 @@ html, #home {
   .header-top {
     background: #558ec6;
     line-height: 50px;
-    font-style: italic;
+    font-family: 'Ubuntu', sans-serif;
   }
   p {
     text-align: center;
