@@ -5,14 +5,42 @@
 html, #home {
   background-color: #8fdbda !important;
 }
-.wrapper-1 {
-  background: url("home/hands_1.png") #fff no-repeat;
-  background-size: cover;
-  overflow: hidden;
-  position: relative center center;
-  letter-spacing: .09em;
-  margin: 0 auto;
+
+#refer .refer-wrapper {
+  $refer-wrapper-height: 460px;
+  background-color: #fff;
+  .wrapper-left {
+    min-height: $refer-wrapper-height;
+    background: url("home/hands_1.png") no-repeat center center #fff;
+    background-size: cover;
+
+    overflow: hidden;
+    position: relative center center;
+    letter-spacing: .09em;
+    margin: 0 auto;
+    
+    .wrapper-left-text {
+      color: #FFF;
+      font-size: 41px;
+      text-transform: uppercase;
+      font-weight: bold;
+      margin: 243px 0 0 20px;
+      display: block;
+      line-height: 56px;
+      text-align: center;
+      overflow: hidden;
+      float: left;
+      letter-spacing: .13em;
+    }
+  }  
+
+  .wrapper-right {
+    .share-wrap {
+      max-height: $refer-wrapper-height;
+    }
+  }
 }
+
 .wrapper {
   background: url('home/main_bg.jpg') no-repeat;
   background-size: cover;
@@ -22,10 +50,12 @@ html, #home {
   margin: 0 auto;
 }
 
+
 .home-header {
   .header-top {
     background: #558ec6;
     line-height: 50px;
+    font-style: italic;
   }
   p {
     text-align: center;
@@ -45,15 +75,8 @@ html, #home {
     position: relative;
 
     .header-slogan {
-      // position: absolute;
-      // bottom: 96px;
-      // right: 50%;
-      // margin-right: 81px;
       margin-top: 16%;
       margin-left: 13%;
-    // .col-xs-6 {
-    //   width: 50%;
-    // }
       h1 {
         
         font-weight: bold;

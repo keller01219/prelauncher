@@ -12,26 +12,37 @@ class User < ActiveRecord::Base
 
     REFERRAL_STEPS = [
         {
-            'count' => 5,
-            "html" => "Shave<br>Cream",
+            'count' => 7,
+            "html" => "Pit<br>Week",
             "class" => "two",
-            "image" =>  ActionController::Base.helpers.asset_path("refer/cream-tooltip@2x.png")
+            "image" =>  ActionController::Base.helpers.asset_path("home/pit_1.png")
         },
         {
-            'count' => 10,
-            "html" => "Truman Handle<br>w/ Blade",
+            'count' => 15,
+            "html" => "Pit Week<br>Straddle",
             "class" => "three",
-            "image" => ActionController::Base.helpers.asset_path("refer/truman@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("home/pit_truggle.png")
         },
         {
             'count' => 25,
-            "html" => "Winston<br>Shave Set",
+            "html" => "Pit Week<br>Straddle<br>Fast and Slow",
             "class" => "four",
-            "image" => ActionController::Base.helpers.asset_path("refer/winston@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("home/pit_stuggle_fast.png")
         }
         
     ]
 
+    def self.from_omniauth(auth)
+        where(auth.slice(:provider, :uid)).first_or_initialize.tap do |user|
+          user.provider = auth.provider
+          user.uid = auth.uid
+          user.name = auth.info.name
+          user.oauth_token = auth.credentials.token
+          user.oauth_expires_at = Time.at(auth.credentials.expires_at)
+          user.save!
+        end
+    end
+    
     private
 
     def create_referral_code

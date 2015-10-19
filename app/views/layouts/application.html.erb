@@ -6,14 +6,14 @@
 <!--[if (gt IE 9)|!(IE)]><!--> <html class="<%= @bodyId %>"> <!--<![endif]-->
 <head>
         <title>Happy Gymnastics</title>
-        <title>Harry&#8217;s &ndash; Tell Friends, Shave for Free</title>
+        <!-- <title>Harry&#8217;s &ndash; Tell Friends, Shave for Free</title>
         <link rel="icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
         <link rel="shortcut icon" href="<%= asset_path('favicon.ico') %>" type="image/x-icon">
 
         <meta property="og:title" content="Harry’s is coming!"/>
         <meta property="og:description" content="Shaving is evolving. Didn’t want to leave you all behind. Check out Harry’s here."/>
        <meta property="og:image" content="<%= asset_path("refer/truman.png") %>"/>
-        <meta property="og:url" content="<%= root_url %>"/>
+        <meta property="og:url" content="<%= root_url %>"/> -->
         <% if @is_mobile %>
             <% if @bodyId == 'home' %>
                 <meta name="viewport" content="width=1600" />
@@ -22,7 +22,6 @@
             <% end %>
         <% end %>
         <%= stylesheet_link_tag "application", :media => "all" %>
-        <%= stylesheet_link_tag "core.css", :media => "all" %>
         <%= csrf_meta_tags %>
 </head>
 <body id="<%= @bodyId %>">

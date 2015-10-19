@@ -36,6 +36,9 @@ gem 'delayed_job_active_record'
 gem 'unicorn'
 gem 'bootstrap-sass'
 gem 'sprockets'
+gem 'omniauth-facebook'
+gem 'koala'
+gem 'dotenv-rails'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 

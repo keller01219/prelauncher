@@ -252,8 +252,10 @@ html, #home {
 }
 
 #refer{
-/*background: #8fdbda !important;*/
+  
+  background-color: #8fdbda;
 }
+
 
 #refer .page-content{
 	width: 1120px;
@@ -314,66 +316,66 @@ html, #home {
 }
 #refer .mammoth .need{
 	color: #FFF;
-	font-size: 25px;
-	text-transform: uppercase;
-	font-weight: bold;
-	margin: 102px 0 0 72px;
-	display: block;
-	line-height: 56px;
-	letter-spacing: 4px;
-	text-align: center;
-	width: 284px;
+  font-size: 41px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 243px 0 0 20px;
+  display: block;
+  line-height: 56px;
+  /* letter-spacing: 4px; */
+  text-align: center;
+  width: 623px;
 }
 
 #refer .share-wrap{
 	float: right;
-	width: 400px;
-	text-align: center;
-	text-transform: uppercase;
-	letter-spacing: .13em;
-	margin-right: 60px;
-
+  width: 100%;
+  height: 557px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .13em;
+  margin-right: 1%;
 }
 
 #refer .share-wrap .why{
-	font-size: 16px;
-	color: #555556;
-	font-weight: bold;
-	margin-top: 42px;
+	font-size: 36px;
+  color: #555556;
+  font-weight: bold;
+  margin-top: 42px;
 }
 
 #refer .share-wrap .title{
-	font-size: 30px;
-	line-height: 40px;
-	text-transform: uppercase;
-	font-weight: bold;
-	color: #074E6F;
-	margin-top: 18px;
-	letter-spacing: .13em;
+	font-size: 36px;
+  line-height: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #074E6F;
+  margin-top: 18px;
+  letter-spacing: .13em;
 }
 
 #refer .share-wrap .subtitle{
 	color: #565656;
-	font-size: 14px;
-	text-transform: none;
-	margin-top: 15px;
+  font-size: 18px;
+  text-transform: none;
+  margin-top: 15px;
 }
 
 #refer .share-wrap .copy-link{
 	border: 1px solid #D1D0C7;
-	background: #FFF;
-	padding: 10px 0;
-	width: 320px;
-	text-transform: none;
-	font-size: 11px;
-	margin: 20px auto 0;
+  background: #FFF;
+  padding: 10px 0;
+  width: 320px;
+  text-transform: none;
+  font-size: 13px;
+  margin: 20px auto 0;
 }
 
 #refer .share-wrap .social-links{
-	width: 120px;
-	height: 37px;
-	margin: 25px auto 0;
-	text-align: center;
+	width: 125px;
+  height: 37px;
+  margin: 25px auto 0;
+  text-align: center;
 }
 
 #refer .share-wrap .social-links a, #refer .share-wrap .social-links div{
@@ -574,6 +576,7 @@ html, #home {
 
 #refer .prizes .products li.product:hover .tooltip{
 	display: block;
+	opacity: 1;
 }
 
 #refer .prizes p.place{

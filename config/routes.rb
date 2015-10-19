@@ -12,6 +12,10 @@ Prelaunchr::Application.routes.draw do
 
   match 'privacy-policy' => 'users#policy'
 
+  match 'auth/:provider/callback', to: 'sessions#create'
+  match 'auth/failure', to: redirect('/')
+  match 'signout', to: 'sessions#destroy', as: 'signout'
+
   unless Rails.application.config.consider_all_requests_local
       match '*not_found', to: 'users#redirect', :format => false
   end
